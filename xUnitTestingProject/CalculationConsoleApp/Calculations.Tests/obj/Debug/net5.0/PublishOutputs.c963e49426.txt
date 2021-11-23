@@ -1,0 +1,15 @@
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\Calculations.Tests\bin\Debug\net5.0\publish\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\Calculations.Tests\bin\Debug\net5.0\publish\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\Calculations.Tests\bin\Debug\net5.0\publish\xunit.runner.utility.netcoreapp10.dll
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\Calculations.Tests\bin\Debug\net5.0\publish\Calculations.Tests.dll
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\Calculations.Tests\bin\Debug\net5.0\publish\Calculations.Tests.runtimeconfig.json
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\Calculations.Tests\bin\Debug\net5.0\publish\Calculations.Tests.pdb
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\Calculations.Tests\bin\Debug\net5.0\publish\xunit.abstractions.dll
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\Calculations.Tests\bin\Debug\net5.0\publish\xunit.assert.dll
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\Calculations.Tests\bin\Debug\net5.0\publish\xunit.console.dll
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\Calculations.Tests\bin\Debug\net5.0\publish\xunit.core.dll
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\Calculations.Tests\bin\Debug\net5.0\publish\xunit.execution.dotnet.dll
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\Calculations.Tests\bin\Debug\net5.0\publish\CalculationConsoleApp.exe
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\Calculations.Tests\bin\Debug\net5.0\publish\CalculationConsoleApp.pdb
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\Calculations.Tests\bin\Debug\net5.0\publish\CalculationConsoleApp.exe.config
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\Calculations.Tests\bin\Debug\net5.0\publish\Calculations.Tests.deps.json

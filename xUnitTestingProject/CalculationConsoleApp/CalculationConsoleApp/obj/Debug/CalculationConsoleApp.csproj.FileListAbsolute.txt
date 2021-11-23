@@ -1,0 +1,7 @@
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\CalculationConsoleApp\bin\Debug\CalculationConsoleApp.exe.config
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\CalculationConsoleApp\bin\Debug\CalculationConsoleApp.exe
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\CalculationConsoleApp\bin\Debug\CalculationConsoleApp.pdb
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\CalculationConsoleApp\obj\Debug\CalculationConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\CalculationConsoleApp\obj\Debug\CalculationConsoleApp.exe
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\CalculationConsoleApp\obj\Debug\CalculationConsoleApp.pdb
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\xUnitTestingProject\CalculationConsoleApp\CalculationConsoleApp\obj\Debug\CalculationConsoleApp.csproj.AssemblyReference.cache
