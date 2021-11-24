@@ -114,6 +114,17 @@ namespace Calculations.Tests.Tests
             Assert.Equal(expected, result);
         }
 
+        [Theory]
+        [Trait("Category", "Numbers")]
+        [MemberData(nameof(TestDataShare.IsOddOrEvenExternal), MemberType = typeof(TestDataShare))]
+        public void IsOdd_TestOddOrEvenExternalDataProvider(int value, bool expected)
+        {
+            _testOutputHelper.WriteLine($"IsOdd_TestOddOrEvenExternalDataProvider : value = {value} , expected = {expected}");
+            var c = _calculatorFixture.CalcInstance;
+            var result = c.IsOdd(value);
+            Assert.Equal(expected, result);
+        }
+
         public void Dispose()
         {
             _testOutputHelper.WriteLine("Dispose Method at {0}", DateTime.Now);
