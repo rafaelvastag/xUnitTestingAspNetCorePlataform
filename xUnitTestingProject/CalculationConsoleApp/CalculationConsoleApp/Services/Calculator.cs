@@ -10,5 +10,6 @@ namespace CalculationConsoleApp.Services
     {
         int Add(int a, int b);
         double AddDouble(double a, double b);
+        bool IsOdd(int value);
     }
 }

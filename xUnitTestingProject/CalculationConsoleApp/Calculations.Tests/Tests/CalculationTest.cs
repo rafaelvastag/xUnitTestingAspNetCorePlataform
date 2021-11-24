@@ -91,6 +91,18 @@ namespace Calculations.Tests.Tests
             Assert.Equal(c.FiboNumbers, expectedResult);
         }
 
+        [Theory]
+        [Trait("Category", "Numbers")]
+        [InlineData(1,true)]
+        [InlineData(200, false)]
+        public void IsOdd_TestOddOrEven(int value, bool expected)
+        {
+            _testOutputHelper.WriteLine($"IsOdd_TestOddOrEven : value = {value} , expected = {expected}");
+            var c = _calculatorFixture.CalcInstance;
+            var result = c.IsOdd(value);
+            Assert.Equal(expected, result);
+        }
+
         public void Dispose()
         {
             _testOutputHelper.WriteLine("Dispose Method at {0}", DateTime.Now);
