@@ -11,6 +11,7 @@ namespace Calculations.Tests.Tests
     public class NamesTest
     {
         [Fact]
+        [Trait("Category", "NamesHandler")]
         public void ShouldReturnsFullNameTest()
         {
             NamesBuilder n = new NamesBuilder();
@@ -29,6 +30,7 @@ namespace Calculations.Tests.Tests
         }
 
         [Fact]
+        [Trait("Category", "NamesHandler")]
         public void MakeFullName_AlwaysReturnValue()
         {
             NamesBuilder n = new NamesBuilder();
@@ -41,6 +43,7 @@ namespace Calculations.Tests.Tests
         }
 
         [Fact]
+        [Trait("Category", "NamesHandler")]
         public void NickName_MustBeNull()
         {
             NamesBuilder n = new NamesBuilder();
@@ -48,6 +51,7 @@ namespace Calculations.Tests.Tests
         }
 
         [Fact]
+        [Trait("Category", "NamesHandler")]
         public void NickName_MustBeNotNull()
         {
             NamesBuilder n = new NamesBuilder();

@@ -11,6 +11,11 @@ namespace CalculationConsoleApp.Services
         public string Name => "Aref";
         public int Age => 35;
 
+        public string GetCustomerFullName(string firstName, string lastName)
+        {
+            return $"{firstName} {lastName}";
+        }
+
         public virtual int GetOrdersByName(string name)
         {
             if (string.IsNullOrEmpty(name))

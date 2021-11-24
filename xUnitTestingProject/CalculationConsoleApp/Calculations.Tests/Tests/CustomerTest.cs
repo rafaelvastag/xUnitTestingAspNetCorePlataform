@@ -1,50 +1,59 @@
 ﻿using CalculationConsoleApp.Services;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace Calculations.Tests.Tests
 {
-    public class CustomerTest
+
+    [Collection("Customer")]
+    public class CustomerTest : IClassFixture<CustomerFixture>
     {
+        private readonly CustomerFixture _customerFixture;
+
+        public CustomerTest(CustomerFixture customerFixture)
+        {
+            _customerFixture = customerFixture;
+        }
 
         [Fact]
+        [Trait("Category", "Customer")]
         public void CheckNameNotEmpty()
         {
-            var customer = new Customer();
+            var customer = _customerFixture.Customer;
             Assert.NotNull(customer.Name);
             Assert.False(string.IsNullOrEmpty(customer.Name));
         }
 
         [Fact]
+        [Trait("Category", "Customer")]
         public void CheckLegibilityForDiscount()
         {
-            var customer = new Customer();
+            var customer = _customerFixture.Customer;
             Assert.InRange(customer.Age, 25, 35);
         }
 
         [Fact]
+        [Trait("Category", "Customer")]
         public void ThrowArgumentException_WhenGetOrderByNullName()
         {
-            var customer = new Customer();
+            var customer = _customerFixture.Customer;
             var ex = Assert.Throws<ArgumentException>(() => customer.GetOrdersByName(null));
             Assert.Equal("Null Name", ex.Message);
         }
 
         [Fact]
+        [Trait("Category", "Customer")]
         public void returnNameLength_WhenGetOrderByName()
         {
             var name = "Rafael";
 
-            var customer = new Customer();
+            var customer = _customerFixture.Customer;
             var result = customer.GetOrdersByName(name);
             Assert.Equal(name.Length, result);
         }
 
         [Fact]
+        [Trait("Category", "Customer")]
         public void CreateLoyalCustomerForOrdersGreaterThan100()
         {
             var customer = CustomerFactory.CreateCustomerInstance(110);
@@ -53,6 +62,7 @@ namespace Calculations.Tests.Tests
         }
 
         [Fact]
+        [Trait("Category", "Customer")]
         public void CreateRegularCustomerForOrdersLessThan101()
         {
             var customer = CustomerFactory.CreateCustomerInstance(100);
