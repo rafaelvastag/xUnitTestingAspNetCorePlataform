@@ -95,9 +95,20 @@ namespace Calculations.Tests.Tests
         [Trait("Category", "Numbers")]
         [InlineData(1,true)]
         [InlineData(200, false)]
-        public void IsOdd_TestOddOrEven(int value, bool expected)
+        public void IsOdd_TestOddOrEvenInlineDataProvider(int value, bool expected)
         {
-            _testOutputHelper.WriteLine($"IsOdd_TestOddOrEven : value = {value} , expected = {expected}");
+            _testOutputHelper.WriteLine($"IsOdd_TestOddOrEvenInlineDataProvider : value = {value} , expected = {expected}");
+            var c = _calculatorFixture.CalcInstance;
+            var result = c.IsOdd(value);
+            Assert.Equal(expected, result);
+        }
+
+        [Theory]
+        [Trait("Category", "Numbers")]
+        [MemberData(nameof(TestDataShare.IsOddOrEvenData), MemberType = typeof(TestDataShare))]
+        public void IsOdd_TestOddOrEvenSharedDataProvider(int value, bool expected)
+        {
+            _testOutputHelper.WriteLine($"IsOdd_TestOddOrEvenSharedDataProvider : value = {value} , expected = {expected}");
             var c = _calculatorFixture.CalcInstance;
             var result = c.IsOdd(value);
             Assert.Equal(expected, result);
