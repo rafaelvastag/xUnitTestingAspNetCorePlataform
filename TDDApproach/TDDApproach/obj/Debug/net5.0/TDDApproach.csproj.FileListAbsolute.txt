@@ -1,0 +1,16 @@
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\TDDApproach\TDDApproach\bin\Debug\net5.0\TDDApproach.exe
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\TDDApproach\TDDApproach\bin\Debug\net5.0\TDDApproach.deps.json
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\TDDApproach\TDDApproach\bin\Debug\net5.0\TDDApproach.runtimeconfig.json
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\TDDApproach\TDDApproach\bin\Debug\net5.0\TDDApproach.runtimeconfig.dev.json
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\TDDApproach\TDDApproach\bin\Debug\net5.0\TDDApproach.dll
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\TDDApproach\TDDApproach\bin\Debug\net5.0\ref\TDDApproach.dll
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\TDDApproach\TDDApproach\bin\Debug\net5.0\TDDApproach.pdb
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\TDDApproach\TDDApproach\obj\Debug\net5.0\TDDApproach.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\TDDApproach\TDDApproach\obj\Debug\net5.0\TDDApproach.AssemblyInfoInputs.cache
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\TDDApproach\TDDApproach\obj\Debug\net5.0\TDDApproach.AssemblyInfo.cs
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\TDDApproach\TDDApproach\obj\Debug\net5.0\TDDApproach.csproj.CoreCompileInputs.cache
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\TDDApproach\TDDApproach\obj\Debug\net5.0\TDDApproach.dll
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\TDDApproach\TDDApproach\obj\Debug\net5.0\ref\TDDApproach.dll
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\TDDApproach\TDDApproach\obj\Debug\net5.0\TDDApproach.pdb
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\TDDApproach\TDDApproach\obj\Debug\net5.0\TDDApproach.genruntimeconfig.cache
+C:\Users\rgvas\Desktop\CoreEssentials\xUnitTestingProject\TDDApproach\TDDApproach\obj\Debug\net5.0\TDDApproach.csproj.AssemblyReference.cache
